@@ -45,7 +45,7 @@ Key features:
 * Major performance improvement in course import process
 * Added automatic fallback for Location based on latest or upcoming event
 * Limited past event fetch to last 12 months to reduce load time
-* Optimized ACF field updates ó only changed values are written
+* Optimized ACF field updates ‚Äî only changed values are written
 * Improved image handling to avoid duplicate uploads (reuses existing attachments)
 * Added lightweight throttling to prevent database overload
 * Cleanup script prepared for duplicate image removal and event pruning
@@ -61,7 +61,7 @@ Key features:
 * Fixed deprecation error for strip_tags for CourseDescriptionShort
 
 = 1.9 =
-* Added support for EduAdmin custom field Language (ID8166) mapping to ACF field ìLanguageî
+* Added support for EduAdmin custom field Language (ID8166) mapping to ACF field ‚ÄúLanguage‚Äù
 
 = 1.8.1 =
 * Fixed an array_key error for status widget for removed events
@@ -134,3 +134,4 @@ Full imports are only recommended for development/testing.
 
 = 1.5 =
 Major update with AJAX-powered dashboard import and consolidated code. Recommended upgrade.
+
