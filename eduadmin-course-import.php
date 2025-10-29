@@ -20,9 +20,9 @@ if (!defined('ABSPATH')) exit;
 
 // === CONFIGURATION ===
 
-$username = '5226ba905f7a404e';
+$username = 'USERNAME';
 
-$password = 'e814515ca5b2441a9212d667cf0b72d9';
+$password = 'PASSWORD';
 
 $token_file = plugin_dir_path(__FILE__) . 'eduadmin_token.json';
 
@@ -620,4 +620,5 @@ add_filter('cron_schedules',function($s){$s['six_hours']=['interval'=>21600,'dis
 add_action('wp',function(){if(!wp_next_scheduled('eduadmin_import_courses_event'))wp_schedule_event(time(),'six_hours','eduadmin_import_courses_event');});
 
 add_action('eduadmin_import_courses_event', 'eduadmin_run_cron_import');
+
 
